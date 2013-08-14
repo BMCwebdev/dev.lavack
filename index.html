@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name = "format-detection" content = "telephone=no" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/superfish.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/camera.css"> 
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.responsivemenu.js"></script>
+	<script type="text/javascript" src="js/jquery.mobilemenu.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="js/sForm.js"></script>
+	<script type="text/javascript" src="js/camera.js"></script>
+	<!--[if (gt IE 9)|!(IE)]><!-->
+		    <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
+	<script>
+        $(document).ready(function(){
+		jQuery('.camera_wrap').camera();
+
+		$(".various").fancybox({
+					maxWidth	: 800,
+					maxHeight	: 600,
+					fitToView	: false,
+					width		: '70%',
+					height		: '70%',
+					autoSize	: false,
+					closeClick	: false,
+					openEffect	: 'none',
+					closeEffect	: 'none'
+				});
+
+	        });
+	</script>	
+	<!--[if lt IE 8]>
+   <div style=' clear: both; text-align:center; position: relative;'>
+     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+    </a>
+  </div>
+<![endif]-->
+    <!--[if lt IE 9]>
+   	<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+	<div class="main">
+		<!--==============================header=================================-->
+	<header>
+	    <div class="div-header">
+	    	<div class="inner-head">
+	    		<div class="container_24">
+	    			<h1><a href="index.html"><img src="images/logo.png" alt=""></a><span>Dance Studio</span></h1>
+	    			<nav>
+	    			    <ul class="sf-menu">
+	    			    <li class="current"><a href="index.html">Home</a></li>
+	    			    <li><a href="#">About</a>
+<!--
+	    			          <ul>
+	    			             <li><a href="#">Mark Johnson</a></li>
+	    			             <li class="sub-menu-1"><a href="#">John Anderson</a>
+	    			                 <ul>
+	    			                    <li><a href="#">testimonials</a></li>
+	    			                    <li><a href="#">bio</a></li>
+	    			                    <li><a href="#">classes</a></li>
+	    			                 </ul>
+	    			             </li>
+	    			             <li><a href="#">Bradley Grosh</a></li>
+	    			             <li><a href="#">Olivia Grosh</a></li>
+	    			             <li><a href="#">Patrick Pool</a></li>
+	    			         </ul>
+-->
+	    			    </li>
+	    			    <li class="sub-menu"><a href="#">Services</a>
+	    			          <ul>
+	    			             <li><a href="#">Personal Training</a></li>
+	    			             <li><a href="#">Massage Therapy</a></li>
+	    			         </ul>
+	    			    </li>
+	    			    <li><a href="index-3.html">Blog</a></li>
+	    			    <li><a href="index-4.html">Resources</a></li>
+	    			    <li><a href="index-5.html">Contact</a></li>
+	    			 </ul>
+	    			 <div class="clear"></div>
+	    			</nav>
+	    			<div class="clear"></div>
+	    		</div>
+	    	</div>
+	    	<div class="inner-after"></div>
+	    </div>
+	</header>
+			<!--==============================content================================-->
+	<div class="slider">	
+	    <div class="camera_wrap">	                   
+	       <div data-src="images/Sliders/Silder_TRX.png">
+	       		<div class="camera-caption fadeIn">
+	       			<span>strive</span>
+	       			<em>for your own perfection...</em>
+	       			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada
+odio. Morbi nunc odio, gravida at, cursus nec.</p>
+	       		</div>
+	       </div>
+	       <div data-src="images/Sliders/Silder_Run.png">
+	       		<div class="camera-caption fadeIn">
+	       			<span>strive</span>
+	       			<em>for your own perfection...</em>
+	       		</div>
+	       </div>
+	       <div data-src="images/Sliders/Silder_Dumbell.png">
+	       		<div class="camera-caption fadeIn">
+	       			<span>strive</span>
+	       			<em>for your own perfection...</em>
+	       		</div>
+	       </div>
+<!--
+	       <div data-src="images/slide-2.png">
+	       		<div class="camera-caption fadeIn">
+	       			<span>express </span>
+	       			<em>yourself in dance...</em>
+	       			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada
+odio. Morbi nunc odio, gravida at, cursus nec.</p>
+	       		</div>
+	       </div>
+	       <div data-src="images/slide-3.png">
+	       		<div class="camera-caption fadeIn">
+	       			<span>enjoy</span>
+	       			<em>our dance classes...</em>
+	       			<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada
+odio. Morbi nunc odio, gravida at, cursus nec.</p>
+	       		</div>
+	       </div>
+-->
+
+	    </div>
+	</div>
+
+	<div class="box-undslider">
+		<div class="container_24">
+			<div class="wrapper">
+				<article class="grid_8">
+					<figure class="foto">
+						<img src="images/sub_slider/Brandon_Close.jpg" alt="">
+						<span><a href="#">Brandon</a></span>
+						<strong>Lavack</strong>
+					</figure>
+				</article>
+				<article class="grid_8">
+					<figure class="foto">
+						<img src="images/sub_slider/Push_Up.jpg" alt="">
+						<span><a href="#">Training</a></span>
+						<strong>Services</strong>
+					</figure>
+				</article>
+				<article class="grid_8">
+					<figure class="foto">
+						<img src="images/sub_slider/Massage.jpg" alt="">
+						<span><a href="#">Deep Tissue</a></span>
+						<strong>Therapy</strong>
+					</figure>
+				</article>
+			</div>
+		</div>
+	</div>		
+	<div class="container_24">
+		<section id="content">
+		    <div class="wrapper">
+			    <article class="grid_8">
+			       <h2 class="indneth2">Welcome <span>to our site</span></h2>
+			       <div class="indent">
+			       	<span class="dis-block bot"><a href="#">Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. </a></span>
+			       	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. </p>
+			       	<p>Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. </p>
+			       </div>
+			    </article>
+			    <article class="grid_9">
+			       <h2 class="indneth2">Featured <span>news</span></h2>
+			       
+			       	  <div class="indent">
+			       	  	<div class="div-indent">
+			       	  		<figure class="img-block"><img src="images/front_page/Brandon_Lavack.jpg" alt=""></figure>
+			       	  		<div class="extra-wrap">
+			       	  			<span class="font20">Praesent vestibulum molestie</span>
+			       	  			<p>Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus.</p>
+			       	  			<time class="date" datetime="2013-01-01">10-12-2012, Tuesday</time>
+			       	  		</div>
+			       	  	</div>
+			       	  	
+			       	  	<div class="div-indent">
+			       	  		<figure class="img-block"><img src="images/front_page/Stretch.jpg" alt=""></figure>
+			       	  		<div class="extra-wrap">
+			       	  			<span class="font20">Aenean nonummy <br>hendrerit</span>
+			       	  			<p>Fusce feugiat malesuada odio. Morbi  odio, gravida at, cursus nec, luctus.</p>
+			       	  			<time class="date" datetime="2013-01-01">10-12-2012, Tuesday</time>
+			       	  		</div>
+			       	  	</div>
+			       	  	
+			       	  	<a href="#" class="button">more</a>
+			       	  </div>
+			       
+			    </article>
+			    <article class="grid_7">
+			       <h2 class="indneth2">New <span>video</span></h2>
+			       <div class="block-video">
+			       	  <a class="various fancybox.iframe" href="http://www.youtube.com/embed/Xf4R33HwT5I"><strong></strong><img src="images/front_page/Home_Page_Video.jpg" alt=""></a>
+			       </div><br>
+			       <a href="#" class="button">more videos</a>
+			    </article>
+		    </div><!--///wrapper-->
+		</section>
+	</div>
+	<aside>
+		<div class="container_24">
+			<div class="wrapper">
+				<article class="grid_5">
+					<h3>Features</h3>
+					<ul class="list">
+						<li><a href="#">Praesent vestibulum</a></li>
+						<li><a href="#">Molestieus aenean nonum</a></li>
+						<li><a href="#">Hendrerit mauris</a></li>
+						<li><a href="#">Phasellus porta fusce</a></li>
+						<li><a href="#">Suscipit varius</a></li>
+					</ul>
+				</article>
+				<article class="grid_5">
+					<h3>Archives</h3>
+					<ul class="list">
+						<li><a href="#">October 2012</a></li>
+						<li><a href="#">September 2012</a></li>
+						<li><a href="#">August 2012</a></li>
+						<li><a href="#">July 2012</a></li>
+						<li><a href="#">June 2012</a></li>
+					</ul>
+				</article>
+				<article class="grid_5">
+					<h3>Locations</h3>
+					<div class="location">
+						<span>USA - LOS ANGELES</span>
+						<span>901 East Street, Wilmington, &emsp;<br> 	CA 90744</span>
+						<span>E-mail: <a href="#">mail@demolink.com </a></span>
+						<span>Phone: + 1-234-567890 </span>
+					</div>
+				</article>
+				<article class="grid_7 prefix_2">
+					<h3>Newsletter</h3>
+					<span>Get our regular email of featured 
+events and news.</span>
+					
+					<form id="form1">
+			            <div class="success">Your subscribe request<br> has been sent!</div>
+			              <fieldset>
+			              <label class="email">
+			                  <input type="email" value="">
+			                  <span class="error">*This is not a valid email address.</span></label>
+			              <div class="btn-div"><a href="#" class="link" data-type="submit">Subscribe</a></div>
+			            </fieldset>
+			        </form>
+				</article>
+			</div>
+		</div>
+	</aside>
+		<!--==============================footer=================================-->
+	<footer>
+	   <div class="container_24">
+	        <div class="wrapper">
+	        	<article class="grid_4 fright">
+	        		<ul class="social">
+	        			<li><a href="#" class="icon"></a></li>
+	        			<li><a href="#" class="icon-1"></a></li>
+	        			<li><a href="#" class="icon-2"></a></li>
+	        		</ul>
+	        	</article>
+	        	<article class="grid_20 fleft">
+	        		<div><strong><a href="#"><img src="images/logo-1.png" alt=""></a></strong> &copy; 2013 | <a href="index-6.html">Privacy Policy</a> <br><!-- {%FOOTER_LINK}--></div>
+	        	</article>
+	        	
+	        </div>
+	   </div>
+	</footer>
+</div>
+</body>
+</html>
