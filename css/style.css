@@ -160,7 +160,7 @@ a:hover{
 	display: inline-block;
 	padding: 0 0 0 15px;
 	background: url(../images/bg-link.png) 0 5px no-repeat;
-	color: #3d99c1;
+	color: #9DC44D;
 }
 .link-1:hover{color: #fff;}
 
@@ -1089,4 +1089,12 @@ header h1{
 		width: 295px;
 		position: relative;
 	}
+	#aboutul {
+		font-size: 14px;
+		color: #9DC44D;
+		font-weight: 300px;
+	}
 	
+	#BrandonCreds {
+		width:295px;
+	}
