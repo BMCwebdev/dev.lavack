@@ -131,7 +131,7 @@ a:hover{
 .button{ 
 	position: relative;
 	display:inline-block; 
-	margin: 0 0 0 0; 
+	margin-bottom: 15px;
 	padding: 8px 15px 1px;
 	background: #9dc44d;
 	color: #fff; 
