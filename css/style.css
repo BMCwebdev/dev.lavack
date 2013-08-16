@@ -84,7 +84,7 @@ h2 span{
 	font-family: 'Playball', cursive;
 	font-size: 30px;
 	line-height: 40px;
-	color: #40aad8;
+	color: #9dc44d;
 	display: inline-block;
 	padding: 4px 0 0 0;
 }
@@ -101,7 +101,7 @@ h3{
 h4{
 	font-size: 24px;
 	line-height: 1.2em;
-	color: #47b9eb;
+	color: #9dc44d;
 	font-family: 'Playball', cursive;
 	font-weight: normal;
 	letter-spacing: -1px;
@@ -125,7 +125,7 @@ a {
 }
 
 a:hover{
-	color:#40aad8 ; 
+	color:#9dc44d ; 
 	text-decoration:none;
 	}
 .button{ 
@@ -133,7 +133,7 @@ a:hover{
 	display:inline-block; 
 	margin: 0 0 0 0; 
 	padding: 8px 15px 1px;
-	background: #47b9eb;
+	background: #9dc44d;
 	color: #fff; 
 	text-transform: uppercase;
 	font-size: 20px;
@@ -276,7 +276,7 @@ header h1 a {
 	position: relative;
 	display: block;
 	padding: 15px 0 25px 24px;
-	background: #47b9eb;
+	background: #9dc44d;
 	list-style: none;
 	margin: 74px 0 0 0;
 }
@@ -364,7 +364,7 @@ header h1 a {
 }
 .foto span{
 	position: absolute;
-	top: 115px;
+	top: 167px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -409,9 +409,9 @@ header h1 a {
 }
 .div-indent .font20{margin: 3px 0 8px 0;}
 .div-indent p{margin-bottom: 0;}
-.div-indent .date{color: #40aad8;}
+.div-indent .date{color: #9dc44d;}
 .div-indent a{
-	color: #40aad8;
+	color: #9dc44d;
 	font-size: 12px;
 	line-height: 20px;
 }
@@ -475,11 +475,12 @@ aside{
 }
 .location{
 	line-height: 24px;
+	width: 200px;
 }
 .location span{
 	display: block;
 }
-.location a{color: #40aad8;}
+.location a{color: #9dc44d;}
 .location a:hover{color: #fff;}
 
 aside h3{margin-bottom: 13px;}
@@ -507,7 +508,7 @@ aside h3{margin-bottom: 13px;}
 #form1 a{
 	font-size: 12px;
 	line-height: 20px;
-	color: #40aad8;
+	color: #9dc44d;
 	text-decoration: underline;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -540,7 +541,7 @@ aside h3{margin-bottom: 13px;}
 #form1 .success {
   border: 1px solid #fff;
   padding: 5px 10px 5px 10px;
-  background: #47b9eb;
+  background: #9dc44d;
   position: absolute;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -605,7 +606,7 @@ aside h3{margin-bottom: 13px;}
 		bottom: -22px;
 		left: 66px;
 	}
-	.box-comment a{color: #40aad8;}
+	.box-comment a{color: #9dc44d;}
 	.box-comment a:hover{color: #fff;}
 
 	.dancer{
@@ -629,7 +630,7 @@ aside h3{margin-bottom: 13px;}
 	font-family: 'Anton', sans-serif;
 }
 .first-tr td{
-	background: #47b9eb;
+	background: #9dc44d;
 	padding: 13px 0 14px 0;
 }
 .content-table td{
@@ -702,7 +703,7 @@ aside h3{margin-bottom: 13px;}
 
 /*********************************page_6*************************************/
 .pp{
-	color: #40aad8;
+	color: #9dc44d;
 	text-decoration: underline;
 }
 .pp:hover{
@@ -716,7 +717,7 @@ aside h3{margin-bottom: 13px;}
 	#contact-form .success {
 		display: block; 
 		padding:10px;
-		background: #47b9eb;
+		background: #9dc44d;
 		border: 1px solid #fff;
 		color: #000;
 		position: absolute;
@@ -837,7 +838,7 @@ aside h3{margin-bottom: 13px;}
 		color: #fff;
 	}
 	.adress a{
-		color: #40aad8;
+		color: #9dc44d;
 		text-decoration: underline;
 		display: inline-block;
 		margin-left: 12px;
@@ -861,7 +862,7 @@ footer .grid_20 strong{
 	margin-right: 5px;
 }
 footer .grid_20 a{
-	color: #40aad8;
+	color: #9dc44d;
 	text-decoration: underline;
 }
 footer .grid_20 a:hover{
@@ -998,7 +999,7 @@ header h1{
 	font-family: 'Anton', sans-serif;
 }
 .first-tr td{
-	background: #47b9eb;
+	background: #9dc44d;
 	padding: 13px 0 14px 0;
 }
 .content-table td{
@@ -1073,3 +1074,19 @@ header h1{
 
 
 }
+
+	#videotitle {
+    color: #9DC44D;
+    font-family: 'BenchNine',sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+	}
+	
+	#footerlogo {
+		top: -16px;
+		height: 45px;
+		width: 295px;
+		position: relative;
+	}
+	
