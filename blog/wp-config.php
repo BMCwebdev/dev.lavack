@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'lavackblog');
+define('DB_NAME', 'aligator_lavack');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'aligator_lavack');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'lavack2013');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
