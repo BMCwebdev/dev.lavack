@@ -1100,3 +1100,10 @@ header h1{
 	#BrandonCreds {
 		width:295px;
 	}
+	
+ .baclogo.png {
+	 width:75px;
+	 height:75px;
+	 position:relative;
+	 top:1px;
+ }
