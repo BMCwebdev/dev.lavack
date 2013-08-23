@@ -13,7 +13,7 @@
 					mailHandlerURL:'bat/MailHandler.php',
 					ownerEmail:'brian@bmcwebdev.com',
 					stripHTML:true,
-					smtpMailServer:'mail.bmcwebdev.com',
+					smtpMailServer:'mail.sftcboston.com',
 					targets:'input,textarea',
 					controls:'a[data-type=reset],a[data-type=submit]',
 					validate:true,
