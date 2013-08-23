@@ -28,7 +28,7 @@ Template: omega
 }
 
 .omega-nav-menu, .omega-nav-menu > ul {
-background: url(/wp-content/uploads/2013/08/navbackground.png);
+background: url(/blog/wp-content/uploads/2013/08/navbackground.png);
 position: relative;
 top: 9px;
 }
@@ -37,7 +37,7 @@ top: 9px;
 left:100px;
 }
 .site-inner {
-background: url(/wp-content/uploads/2013/08/bg-body.jpg);
+background: url(/blog/wp-content/uploads/2013/08/bg-body.jpg);
 }
 
 .nav-primary {
@@ -45,6 +45,6 @@ background-color: #000000;
 }
 
 .site-header {
-background: url(/wp-content/uploads/2013/08/bg-body2.jpg);
+background: url(/blog/wp-content/uploads/2013/08/bg-body2.jpg);
 }
 
