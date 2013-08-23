@@ -1104,7 +1104,7 @@ header h1{
  .baclogo {
 	 position:relative;
 	 top: -150px;
-	 right: -500px;
+	 left: 500px;
 	 z-index: 1;
  }
  
