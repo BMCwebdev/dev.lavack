@@ -1129,7 +1129,7 @@ header h1{
 	 height:75px;
 	 z-index: 1;
 	 position:relative;
-	 top: -150px;
+	 top: -157px;
 	 z-index: 1;
  }
  
@@ -1140,4 +1140,9 @@ header h1{
 	    font-size: 33px;
 	    line-height: 40px;
 	    padding: 0px 0 0;
+ 	}
+ 	.backlogotext {
+	 	position: relative;
+	 	bottom: 215px;
+	 	left: 126px;
  	}
