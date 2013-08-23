@@ -10,7 +10,7 @@
 					notRequiredCl:'notRequired',
 					successCl:'success',
 					successShow:'4000',
-					mailHandlerURL:'mail/MailHandler.php',
+					mailHandlerURL:'../mail/MailHandler.php',
 					ownerEmail:'brian@bmcwebdev.com',
 					stripHTML:true,
 					smtpMailServer:'localhost',
