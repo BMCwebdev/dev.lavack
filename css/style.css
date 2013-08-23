@@ -1110,7 +1110,7 @@ header h1{
 	 z-index: 1;
  }
  
- 	.brandoncreds {
+ 	#brandoncreds {
 	 	color: #9DC44D;
 	    display: inline-block;
 	    font-family: 'Playball',cursive;
