@@ -182,6 +182,6 @@
 })(jQuery)
 $(window).load(function(){
 	$('#contact-form').forms({
-		ownerEmail:'brian@bmcwebdev.com'
+		ownerEmail:'#'
 	})
 })
