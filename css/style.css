@@ -276,7 +276,7 @@ header h1 a {
 	position: relative;
 	display: block;
 	padding: 15px 0 25px 24px;
-	background: #9dc44d;
+	background: #B9E069;
 	list-style: none;
 	margin: 74px 0 0 0;
 }
@@ -292,18 +292,35 @@ header h1 a {
 	content: '';
 }
 
-.list-2 li{
-	padding: 0 0 0 18px;
-	background: url(../images/bg-li-list-2.png) 0 11px no-repeat;
+.list-2 .greentest{
 	color: #fff;
 	font-size: 22px;
 	font-family: 'Anton', sans-serif;
 	line-height: 36px;
+	margin-left: -17px;
+}
+
+.list-2 .greentest2{
+	font-size: 16px;
+	font-family: 'Anton', sans-serif;
+	line-height: 25px;
+	color: #5e5e5e;
+	padding-right: 15px;
+}
+
+.list-2 .greentest3{
+	color: #5e5e5e;
+	font-size: 14px;
+	font-family: 'Anton', sans-serif;
+	line-height: 30px;
+	text-align: right;
+	float: right;
+	padding-right: 20px;
 }
 
 .list-2 li a{color: #fff;}
 
-.list-2 li a:hover{color: #000;}
+.list-2 li a:hover{color: #fff;}
 
 
 .img-block{
@@ -581,7 +598,7 @@ aside h3{margin-bottom: 13px;}
 	overflow: hidden;
 }
 .block-indent_1 .img-block{
-	margin: 4px 20px 15px 0;
+	margin: 4px 20px 5px 0;
 	float: left;
 }
 
@@ -601,7 +618,7 @@ aside h3{margin-bottom: 13px;}
 	.block-comment:after{
 		content: '';
 		display: block;
-		background: url(../images/comment-after.png) 0 0 no-repeat;
+/* 		background: url(../images/comment-after.png) 0 0 no-repeat; */
 		width: 34px;
 		height: 23px;
 		position: absolute;
