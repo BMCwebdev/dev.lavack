@@ -35,7 +35,7 @@
 	}
 	
 	try{
-		if(!mail($owner_email, $subject, $messageBody, $headers)){
+		if(!mail($ownerEmail, $subject, $messageBody, $headers)){
 			throw new Exception('mail failed');
 		}else{
 			echo 'mail sent';
