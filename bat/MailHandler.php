@@ -1,5 +1,5 @@
 <?php
-	$owner_email = $_POST["owner_email"];
+	$owner_email = $_POST["ownerEmail"];
 	$headers = 'From:' . $_POST["email"];
 	$subject = 'A message from your site visitor ' . $_POST["name"];
 	$messageBody = "";
