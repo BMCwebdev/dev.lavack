@@ -182,6 +182,6 @@
 })(jQuery)
 $(window).load(function(){
 	$('#contact-form').forms({
-		ownerEmail:'#'
+		ownerEmail:'babyaligators@comcast.net'
 	})
 })
