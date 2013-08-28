@@ -1146,3 +1146,8 @@ header h1{
 	 	bottom: 215px;
 	 	left: 126px;
  	}
+ 	
+ 	DIV.fg_wid_footer A IMG {
+    display: none;
+    font-size: 12px;
+    }
