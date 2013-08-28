@@ -1151,3 +1151,24 @@ header h1{
     display: none;
     font-size: 12px;
     }
+    
+    #ytThumbs {
+	    width:250px;
+    }
+        #ytThumbs img {
+	    width:250px;
+    }
+     .ytNext {
+	    display: none;
+    }
+    .ytlist h3 {
+    color: #9DC44D;
+    font-size: 20px;
+    position: fixed;
+    right: 548px;
+    top: 245px;
+    }
+    .ytlist span {
+	    color: #ffffff;
+    }
+   
