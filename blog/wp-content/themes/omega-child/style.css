@@ -48,3 +48,63 @@ background-color: #000000;
 background: url(/blog/wp-content/uploads/2013/08/bg-body2.jpg);
 }
 
+.omega-nav-menu a {
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 24px;
+    position: relative;
+    font-family: 'BenchNine',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+body {
+    background: url("/blog/wp-content/uploads/2013/08/bg-body2.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+
+.site-inner {
+    background: url("/blog/wp-content/uploads/2013/08/bg-body.jpg") no-repeat scroll 0 0 transparent;
+}
+
+.omega-nav-menu .sub-menu a, .omega-nav-menu .children a {
+    background: none repeat scroll 0 0 #C6C6C6;
+}
+.omega-nav-menu a {
+    left: 260px;
+}
+
+.content {
+background-color:rgba(61,61,61,0.5);
+padding:20px;
+}
+
+.entry-meta {
+    color: #FFFFFF;
+}
+a {
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF;
+}
+
+.entry-title a, .sidebar .widgettitle a {
+    color: #FFFFFF;
+}
+
+.sidebar {
+    background-color: rgba(61, 61, 61, 0.5);
+padding:20px;
+color:#FFFFFF
+}
+
+.entry-comments, #respond {
+    background: none repeat scroll 0 0 #2D2D2D;
+}
+
+li.comment .comment-body {
+    background: none repeat scroll 0 0 #2D2D2D;
+}
